@@ -12,6 +12,9 @@
 		0B7833BC1EEF3B960008D996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7833BA1EEF3B960008D996 /* Main.storyboard */; };
 		0B7833BE1EEF3B960008D996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7833BD1EEF3B960008D996 /* Assets.xcassets */; };
 		0B7833C11EEF3B960008D996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7833BF1EEF3B960008D996 /* LaunchScreen.storyboard */; };
+		0B7F21231F08677D001925A3 /* filters_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B7F21201F08677D001925A3 /* filters_button.png */; };
+		0B7F21241F08677D001925A3 /* save_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B7F21211F08677D001925A3 /* save_button.png */; };
+		0B7F21251F08677D001925A3 /* share_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B7F21221F08677D001925A3 /* share_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0B7833BD1EEF3B960008D996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7833C01EEF3B960008D996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7833C21EEF3B960008D996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7F21201F08677D001925A3 /* filters_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filters_button.png; sourceTree = "<group>"; };
+		0B7F21211F08677D001925A3 /* save_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_button.png; sourceTree = "<group>"; };
+		0B7F21221F08677D001925A3 /* share_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		0B7833B51EEF3B960008D996 /* BeautFilter */ = {
 			isa = PBXGroup;
 			children = (
+				0B7F21201F08677D001925A3 /* filters_button.png */,
+				0B7F21211F08677D001925A3 /* save_button.png */,
+				0B7F21221F08677D001925A3 /* share_button.png */,
 				0B7833B61EEF3B960008D996 /* AppDelegate.swift */,
 				0B7833B81EEF3B960008D996 /* ViewController.swift */,
 				0B7833BA1EEF3B960008D996 /* Main.storyboard */,
@@ -124,8 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7833C11EEF3B960008D996 /* LaunchScreen.storyboard in Resources */,
+				0B7F21231F08677D001925A3 /* filters_button.png in Resources */,
+				0B7F21241F08677D001925A3 /* save_button.png in Resources */,
 				0B7833BE1EEF3B960008D996 /* Assets.xcassets in Resources */,
 				0B7833BC1EEF3B960008D996 /* Main.storyboard in Resources */,
+				0B7F21251F08677D001925A3 /* share_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeautFilter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.BeautFilter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unirio.BeautFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeautFilter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.BeautFilter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unirio.BeautFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +311,7 @@
 				0B7833C71EEF3B960008D996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
